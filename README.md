@@ -75,6 +75,7 @@ This is a blank template for a Python based asynchronous API. This project makes
 ### Built With
 
 * [![FastAPI][FastAPI.tiangolo.com]][FastAPI-url]
+* [![Pydantic][Pydantic.dev]][Pydantic-url]
 * [![SQLAlchemy][SQLAlchemy.org]][SQLAlchemy-url]
 * [![Rich][Rich.readthedocs.io]][Rich-url]
 
@@ -85,11 +86,11 @@ This is a blank template for a Python based asynchronous API. This project makes
 <!-- GETTING STARTED -->
 ## Getting Started
 
-I'd recommend using Poetry to manage the dependecy installation/ virtual environment setup.
+Some basic installation and setup details can be found below.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+I'd recommend using Poetry to manage the dependecy installation/ virtual environment setup.
 * Poetry
   ```sh
   curl -sSL https://install.python-poetry.org | python3 -
@@ -120,8 +121,6 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Edit and expand on the application as needed.
-
 You can debug the application by pressing *F5* in [Visual Studio Code](https://code.visualstudio.com/) 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -136,11 +135,13 @@ Contributions are what make the open source community such an amazing place to l
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Make your changes
+4. Stage your changes (`git add yourChangedFile.filetype`)
+5. Commit your changes (`git commit -m 'Added an AmazingFeature!'`)
+6. Push to the branch (`git push origin feature/AmazingFeature`)
+7. Open a pull request
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -186,6 +187,8 @@ Project Link: [https://github.com/AwfulMoo/fastapi_postgres_server](https://gith
 [issues-url]: https://github.com/AwfulMoo/fastapi_postgres_server/issues
 [license-shield]: https://img.shields.io/badge/LICENSE-MIT-yellow?style=for-the-badge
 [license-url]: https://github.com/AwfulMoo/fastapi_postgres_server/blob/master/LICENSE
+[Pydantic.dev]: https://img.shields.io/badge/Pydantic-E92063.svg?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTIwIj4KICA8cGF0aAogICAgIGZpbGw9IiNmZmYiCiAgICAgZD0iTSAxMTkuMTgsODYuNjQgOTguMDIsNTcuMyBjIDAsMCAwLDAgMCwwIEwgNjMuNzcsOS44IGMgLTEuNzQsLTIuNCAtNS43NiwtMi40IC03LjQ5LDAgbCAtMzQuMjQsNDcuNDkgYyAwLDAgMCwwIDAsMCBMIDAuODcsODYuNjQgYyAtMC44NiwxLjIgLTEuMSwyLjczIC0wLjY1LDQuMTMgMC40NiwxLjQgMS41NSwyLjUgMi45NSwyLjk2IGwgNTUuNDEsMTguMTQgYyAwLDAgMCwwIDAuMDEsOWUtNCAwLjQ2LDAuMTUgMC45NCwwLjIzIDEuNDMsMC4yMyAwLjQ5LDAgMC45NywtMC4wOCAxLjQzLC0wLjIzIDAsMCAwLDAgMC4wMSwwIEwgMTE2Ljg3LDkzLjczIGMgMS40LC0wLjQ2IDIuNSwtMS41NSAyLjk1LC0yLjk2IDAuNDYsLTEuNCAwLjIyLC0yLjkzIC0wLjY1LC00LjEzIHogbSAtNTkuMTUsLTY2LjI1IDIyLjIxLDMwLjggLTIwLjc3LC02LjggYyAtMC4xNiwtMC4wNSAtMC4zMywtMC4wNCAtMC40OSwtMC4wOCAtMC4xNiwtMC4wNCAtMC4zMiwtMC4wNiAtMC40OCwtMC4wOCAtMC4xNiwtMC4wMiAtMC4zMSwtMC4wOCAtMC40NywtMC4wOCAtMC4xNiwwIC0wLjMxLDAuMDYgLTAuNDcsMC4wOCAtMC4xNywwLjAyIC0wLjMyLDAuMDQgLTAuNDgsMC4wOCAtMC4xNiwwLjAzIC0wLjMzLDAuMDMgLTAuNDgsMC4wOCBoIDAgbCAtMjAuNjQsNi43NiAtMC4xMywwLjA0IDIyLjIxLC0zMC44IHogbSAtMzEuMzgsNDMuNTIgMjQuMTgsLTcuOTIgMi41OCwtMC44NCBWIDEwMS4xMiBMIDEyLjA2LDg2LjkyIFogbSAzNiwzNy4yIFYgNTUuMTUgbCAyNi43Niw4Ljc2IDE2LjU5LDIzIHoiLz4KPC9zdmc+Cg==
+[Pydantic-url]: https://docs.pydantic.dev/latest/
 [SQLAlchemy.org]: https://img.shields.io/badge/SQLAlchemy-778777.svg?style=for-the-badge&logo=data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAAAABMLAAATCwAAAAAAAAAAAAB3iHf/d4h3/3eId/93iHf/d4h3/3eId/93iHf/d4h3/3eId/93iHf/d4h3/3eId/93iHf/d4h3/3eId/93iHf/d4h3/3eId/93iHf/d4h3/3eId/93iHf/d4h3/3eId/93iHf/d4h3/3eId/93iHf/d4h3/3eId/93iHf/d4h3/3eId/93iHf/d4h3/3eId/95inn/lKGU/77Hvv/R1tH/0NXQ/8XMxf+hraH/eot6/3eId/93iHf/d4h3/3eId/93iHf/d4h3/3eId/94iXj/uMG4//T29P/29/b/6+7r/+zv7P/8/fz//f79/8TLxP+QnZD/d4h3/3eId/93iHf/d4h3/3eId/95inn/uMC4//r7+v/N1M3/l6SX/4CQgP+Ek4T/naqd/9DW0P/7/Pv/5Ofk/4mYif93iHf/d4h3/3eId/93iHf/rrmu//39/f/FzMX/e4x7/3eId/+Il4j/i5qL/3eId/95iXn/tL20//3+/f/Hzsf/e4x7/3eId/93iHf/f49//+Hk4f/i5uL/gZCB/3eId/+wubD/7vDu//Dx8P+8xbz/fY19/3yNfP/T2NP/+fr5/56qnv93iHf/d4h3/5Gekf/x8vH/ucG5/3eId/+msab/7/Hv/8zSzP/L0sv/+fn5/7bAtv93iHf/q7ar//////+9xr3/d4h3/3eId/+ap5r/8/Tz/6SwpP9/j3//5unm/+Dk4P95iXn/d4h3/9ne2f/d4t3/fo5+/56qnv/8/fz/yM7I/3eId/93iHf/m6eb//n5+f+st6z/eIl4/9DW0P/z9PP/laKV/4uai//p6+n/0dbR/3mJef+iraL//f79/8bNxv93iHf/d4h3/4qYiv/o6+j/xs3G/3eId/+eqp7/8/Xz//Dx8P/u8O7/8/Xz/6CsoP93iHf/wcnB//7//v+4wLj/eYp5/3eId/95inn/vsa+//Hz8f+cqJz/d4h3/5ikmP/Gzcb/xc3F/5qmmv93iHf/k6CT//Dx8P/r7uv/kJ6Q/3iJeP93iHf/d4h3/4CPgP/c4dz/8/Xz/623rf94iHj/d4h3/3eId/93iHf/prGm/+vt6//8/fz/r7mv/3iIeP93iHf/d4h3/3eId/93iHf/maaZ/+Hl4f/5+vn/1drV/7K7sv+yvLL/0NXQ//z8/P/+//7/vMW8/3iJeP93iHf/d4h3/3eId/93iHf/d4h3/3eId/+CkoL/ucG5/+ns6f/29/b/+Pn4/+vt6//O1M7/qbOp/3uMe/93iHf/d4h3/3eId/93iHf/d4h3/3eId/93iHf/d4h3/3eId/+FlIX/lqSW/5mmmf+Hlof/eIl4/3eId/93iHf/d4h3/3eId/93iHf/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
 [SQLAlchemy-url]: https://www.sqlalchemy.org/
 [FastAPI.tiangolo.com]: https://img.shields.io/badge/FastAPI-grey?style=for-the-badge&logo=fastapi
